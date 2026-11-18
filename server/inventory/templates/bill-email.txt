@@ -1,0 +1,25 @@
+Subject: Your {{restaurant}} bill {{bill_no}} ({{total}})
+
+Vanakkam {{customer}},
+
+Thank you for dining with us at {{restaurant}}. Here is your bill.
+
+{{restaurant}} · {{tagline}}
+{{address}}
+{{gstin_line}}
+
+Bill No : {{bill_no}}
+Date    : {{date}}
+Table   : {{table_no}}
+Paid by : {{payment_mode}}
+
+-----------------------------------------------
+{{items}}-----------------------------------------------
+Subtotal                 {{subtotal}}
+{{discount_line}}{{service_line}}{{cgst_line}}{{sgst_line}}{{round_line}}
+TOTAL                    {{total}}
+-----------------------------------------------
+
+We hope to see you again soon.
+
+Team {{restaurant}}

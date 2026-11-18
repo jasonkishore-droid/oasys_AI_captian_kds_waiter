@@ -1,0 +1,24 @@
+{
+  "name": "oasys-ai-captain-kds-waiter",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Oasys Restaurant: the Kitchen Display and the Waiter screen (AI Captain), one app on one port",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "vite build && vite preview",
+    "waiter:add": "node server/addWaiter.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.0"
+  }
+}

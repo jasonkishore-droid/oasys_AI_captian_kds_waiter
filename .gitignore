@@ -1,0 +1,9 @@
+node_modules
+dist
+*.log
+.env
+.env.local
+# the databases and the waiters' pictures are created while the app runs: not for git
+data/
+assets/waiters/*
+!assets/waiters/.gitkeep
